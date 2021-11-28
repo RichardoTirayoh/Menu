@@ -1,0 +1,71 @@
+.header{
+    background: white;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #132c33;
+    z-index: 99;
+}
+.bar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 999;
+    align-items: center;
+    text-align: center;
+    top: 10%;
+}
+
+.icon-close{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(165, 0, 0, 0.678);
+    border-radius: 7px;
+    z-index: 999;
+    right: 2%;
+    top: 2%;
+}
+h4{
+    font-family: 'Poppins';
+    margin-top: 60px;
+    font-size: 40px ;
+}
+
+#LoginMenu{
+    position: relative;
+    margin-top: 70px;
+    width: 100%;
+    height: 40px;
+    background-color: #126E82;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.listMenu h4{
+    position: relative;
+
+}
+.listMenu h4:hover{
+    cursor: pointer;
+
+}
+.listMenu h4:hover::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    height: 5px;
+    width: 60%;
+    background-color: white;
+    border-radius: 12px;
+    left: 20%;
+
+}
